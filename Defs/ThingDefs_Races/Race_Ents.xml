@@ -251,16 +251,8 @@
 					<minAge>0</minAge>
 					</li>
 					<li>
-					<def>EntYoung</def>
-					<minAge>1.2</minAge>
-					</li>
-					<li>
-					<def>EntChild</def>
-					<minAge>4</minAge>
-					</li>
-					<li>
 					<def>Entling</def>
-					<minAge>13</minAge>
+					<minAge>2</minAge>
 					</li>
 					<li>
 					<def>EntAdult</def>
