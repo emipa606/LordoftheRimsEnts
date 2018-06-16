@@ -14,10 +14,11 @@
       <MeatAmount>0</MeatAmount>
     </statBases>
     <comps>
-      <li Class="CompProperties_Shearable">
-        <woolDef>HuornSap</woolDef>
-        <shearIntervalDays>3</shearIntervalDays>
-        <woolAmount>20</woolAmount>
+	  <li Class="CompProperties_Milkable">
+		<milkDef>HuornSap</milkDef>
+		<milkIntervalDays>3</milkIntervalDays>
+		<milkAmount>20</milkAmount>
+		<milkFemaleOnly>false</milkFemaleOnly>
       </li>
     </comps>
     <tools>
