@@ -5,9 +5,12 @@
     <defName>EntFaction</defName>
     <label>Ent tribe</label>
     <description>Ent tribe</description>
+    <goodwillDailyGain>0.25</goodwillDailyGain>
+    <goodwillDailyFall>0.25</goodwillDailyFall>
 	<basicMemberKind>EntMelee</basicMemberKind>
     <pawnsPlural>Ents</pawnsPlural>
-    <baseSelectionWeight>0.005</baseSelectionWeight>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<fixedName>Onodrim</fixedName>
     <canMakeRandomly>true</canMakeRandomly>
@@ -33,7 +36,7 @@
       <max>30</max>
     </startingGoodwill>
     <mustStartOneEnemy>false</mustStartOneEnemy>
-    <baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <techLevel>Medieval</techLevel>
     <backstoryCategory>Ent_Backstory</backstoryCategory>
     <leaderTitle>ancient</leaderTitle>
@@ -47,14 +50,21 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
+        <options>
+          <EntMelee>400</EntMelee>
+          <EntRange>250</EntRange>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
         <options>
           <EntMelee>200</EntMelee>
           <EntRange>100</EntRange>
         </options>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
           <EntMelee>250</EntMelee>
           <EntRange>100</EntRange>
@@ -70,7 +80,10 @@
     <description>An Ent tribe, which after seeing the Forests being chopped down by the other races, secluded themselves. They are now wandering the Forests in search for revenge and destruction.</description>
 	<basicMemberKind>EntMelee</basicMemberKind>
     <pawnsPlural>Ents</pawnsPlural>
-    <baseSelectionWeight>1</baseSelectionWeight>
+    <goodwillDailyGain>0.25</goodwillDailyGain>
+    <goodwillDailyFall>0.25</goodwillDailyFall>
+    <listOrderPriority>30</listOrderPriority>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
 	<fixedName>MenHunters</fixedName>
     <canMakeRandomly>true</canMakeRandomly>
@@ -96,7 +109,7 @@
       <max>-100</max>
     </startingGoodwill>
     <mustStartOneEnemy>false</mustStartOneEnemy>
-    <baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <techLevel>Medieval</techLevel>
     <backstoryCategory>Ent_Backstory</backstoryCategory>
 	<hidden>true</hidden>
@@ -111,18 +124,17 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
-        <commonality>50</commonality>
+        <kindDef>Combat</kindDef>
         <options>
-          <EntMelee>400</EntMelee>
-          <EntRange>200</EntRange>
+          <EntMelee>750</EntMelee>
+          <EntRange>450</EntRange>
         </options>
       </li>
       <li>
-        <kindDef>Normal</kindDef>
-        <commonality>50</commonality>
+        <kindDef>Peaceful</kindDef>
         <options>
-          <EntRange>600</EntRange>
+          <EntMelee>200</EntMelee>
+          <EntRange>100</EntRange>
         </options>
       </li>
     </pawnGroupMakers>

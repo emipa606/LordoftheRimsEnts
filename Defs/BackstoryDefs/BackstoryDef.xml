@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
-  <AlienRace.BackstoryDef Name="POTA_BG_Base" Abstract="True">
-    <spawnCategories>
-      <li>Ent_Backstory</li>
-    </spawnCategories>
-  </AlienRace.BackstoryDef>
-   
   <AlienRace.BackstoryDef>
     <defName>Ent_Backstory_Child</defName>
 	<title>Entling</title>
-	<baseDescription>NAME is an Entling, a juvenile Ent.</baseDescription>
+	<baseDescription>[PAWN_nameDef] is an Entling, a juvenile Ent.</baseDescription>
 	<slot>Childhood</slot>
 	<skillGains>
 	  <li>
@@ -23,7 +16,7 @@
 		<amount>5</amount>
 	  </li>
 	  <li>
-	    <defName>Growing</defName>
+	    <defName>Plants</defName>
 		<amount>8</amount>
 	  </li>
 	</skillGains>
@@ -41,7 +34,9 @@
   <AlienRace.BackstoryDef>
     <defName>Ent_Backstory_AdultWarrior</defName>
 	<title>Ent</title>
-	<baseDescription>NAME is a grown Ent, a destined guardian of the Forest.</baseDescription>
+	<baseDescription>[PAWN_nameDef] is a grown Ent, a destined guardian of the Forest.</baseDescription>
+	<bodyTypeFemale>Female</bodyTypeFemale>
+	<bodyTypeMale>Male</bodyTypeMale>
 	<slot>Adulthood</slot>
 	<skillGains>
 	  <li>
@@ -57,7 +52,7 @@
 		<amount>2</amount>
 	  </li>
 	  <li>
-	    <defName>Growing</defName>
+	    <defName>Plants</defName>
 		<amount>8</amount>
 	  </li>
 	</skillGains>
