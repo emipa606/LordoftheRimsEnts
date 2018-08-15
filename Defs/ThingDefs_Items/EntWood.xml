@@ -30,7 +30,7 @@
       <color>(133,97,67)</color>
       <constructEffect>ConstructWood</constructEffect>
       <appearance>Planks</appearance>
-      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
       <statOffsets>
@@ -46,7 +46,6 @@
         <MeleeWeapon_CooldownMultiplier>0.7</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <isBodyPartOrImplant>true</isBodyPartOrImplant>
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>

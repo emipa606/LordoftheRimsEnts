@@ -13,7 +13,7 @@
       <MoveSpeed>0.2</MoveSpeed>
     </statFactors>
   </LifeStageDef>
-	
+
   <LifeStageDef>
     <defName>Entling</defName>
     <label>entling</label>
