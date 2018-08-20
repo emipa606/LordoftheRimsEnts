@@ -5,7 +5,7 @@
   <!--=============================== Misc ================================-->
   <!--=====================================================================-->
 
-  <ThingDef ParentName="OrganicProductBase">
+  <ThingDef ParentName="MealBase">
     <defName>HuornSap</defName>
     <label>huorn sap</label>
     <description>Sap extracted from a Huorn.</description>
@@ -16,7 +16,7 @@
     <statBases>
       <MarketValue>30</MarketValue>
       <Mass>0.045</Mass>
-			<MaxHitPoints>60</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
     </statBases>
     <comps>
       <li Class="CompProperties_Rottable">
@@ -27,7 +27,6 @@
     <ingestible>
       <preferability>RawTasty</preferability>
       <foodType>AnimalProduct, Fluid</foodType>
-      <nutrition>0.2</nutrition>
     </ingestible>
     <thingCategories>
       <li>AnimalProductRaw</li>

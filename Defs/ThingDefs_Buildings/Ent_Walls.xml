@@ -25,9 +25,6 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <uiIconPath>Things/Building/Linked/entwoodwall_buildicon</uiIconPath>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -58,6 +55,9 @@
     </stuffCategories>
     <building>
       <isInert>true</isInert>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
     </building>
     <damageMultipliers>
       <li>

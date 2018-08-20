@@ -14,7 +14,6 @@
       <MarketValue>200</MarketValue>
       <Mass>40</Mass>
       <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
-      <Weapon_Bulk>5</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>EntBoulder</li>
@@ -57,7 +56,7 @@
 			<explosionRadius>1.5</explosionRadius>
 			<damageDef>Bomb</damageDef>
 			<damageAmountBase>20</damageAmountBase>
-			<preExplosionSpawnThingDef>RockRubble</preExplosionSpawnThingDef>
+			<preExplosionSpawnThingDef>ChunkGranite</preExplosionSpawnThingDef>
 		</projectile>
 	</ThingDef>
 

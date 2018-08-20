@@ -15,9 +15,6 @@
     <tickerType>Never</tickerType>
     <alwaysHaulable>true</alwaysHaulable>
     <isBodyPartOrImplant>true</isBodyPartOrImplant>
-    <tradeTags>
-      <li>BodyPartOrImplant</li>
-    </tradeTags>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
     </comps>
@@ -40,7 +37,7 @@
     <label>Ent heart</label>
     <description>Vital organ of the Ents. Very valuable.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/Organ</texPath>
+      <texPath>Things/Item/Health/HealthItemNatural</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -54,7 +51,7 @@
     <label>Huorns heart</label>
     <description>Vital organ of the Huorns. Quite valuable.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/Organ</texPath>
+      <texPath>Things/Item/Health/HealthItemNatural</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -68,7 +65,7 @@
     <label>Ent stomach</label>
     <description>Stomach of an Ent.</description>
     <graphicData>
-      <texPath>Things/Item/BodyPart/Organ</texPath>
+      <texPath>Things/Item/Health/HealthItemNatural</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>

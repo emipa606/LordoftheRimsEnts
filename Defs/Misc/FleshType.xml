@@ -5,7 +5,6 @@
 	<FleshTypeDef>
 		<defName>entFlesh</defName>
 		<corpseCategory>CorpsesAnimal</corpseCategory>
-		<requiresBedForSurgery>true</requiresBedForSurgery>
 		<wounds>
 			<li>
 				<texture>Pawn/Wounds/WoundTreeA</texture>

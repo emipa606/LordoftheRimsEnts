@@ -10,15 +10,15 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
       <statBases>
-      <DeteriorationRate>0.0</DeteriorationRate>
          <MarketValue>250</MarketValue>
+		 <DeteriorationRate>0.0</DeteriorationRate>
          <WorkToMake>10000</WorkToMake>
-     	    <Mass>0.15</Mass>
+     	 <Mass>0.15</Mass>
+		 <Nutrition>2.0</Nutrition>
     </statBases>
       <ingestible>
       <preferability>MealSimple</preferability>
  	 <tasteThought></tasteThought>
-     <nutrition>2.0</nutrition>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
@@ -65,7 +65,7 @@
       </stages>
   </HediffDef>  
   
-     <ThingDef Name="Ent_MealBase" Abstract="True">
+   <ThingDef Name="Ent_MealBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
@@ -93,7 +93,7 @@
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
 			<chairSearchRadius>50</chairSearchRadius>
-<optimalityOffsetFeedingAnimals>-5</optimalityOffsetFeedingAnimals>
+		<optimalityOffsetFeedingAnimals>-5</optimalityOffsetFeedingAnimals>
 			<joy>0.40</joy>
 	        <joyKind>Gluttonous</joyKind>
     </ingestible>
