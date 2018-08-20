@@ -35,7 +35,7 @@
     <mustStartOneEnemy>false</mustStartOneEnemy>
     <baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
     <techLevel>Medieval</techLevel>
-    <backstoryCategory>Ent_Backstory</backstoryCategory>
+    <backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
     <leaderTitle>ancient</leaderTitle>
     <naturalColonyGoodwill>
       <min>-100</min>
@@ -98,7 +98,7 @@
     <mustStartOneEnemy>false</mustStartOneEnemy>
     <baseNameMaker>NamerFactionBaseTribal</baseNameMaker>
     <techLevel>Medieval</techLevel>
-    <backstoryCategory>Ent_Backstory</backstoryCategory>
+    <backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
 	<hidden>true</hidden>
     <leaderTitle>ancient</leaderTitle>
     <naturalColonyGoodwill>

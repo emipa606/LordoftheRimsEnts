@@ -19,7 +19,7 @@
     <pawnsPlural>colonists</pawnsPlural>
     <basicMemberKind>PlayerEnt</basicMemberKind>
 		<techLevel>Neolithic</techLevel>
-		<backstoryCategory>Ent_Backstory</backstoryCategory>
+		<backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
 		<expandingIconTexture>World/WorldObjects/Expanding/Village</expandingIconTexture>
 		<homeIconPath>World/WorldObjects/TribalFactionBase</homeIconPath>
 		<baseNameMaker>NamerFactionBasePlayerTribe</baseNameMaker>
