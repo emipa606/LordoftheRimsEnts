@@ -7,7 +7,7 @@
     <degreeDatas>
       <li>
         <label>Ent</label>
-        <description>NAME is an Ent, a wooden guardian of the Forest.</description>
+        <description>[PAWN_nameDef] is an Ent, a wooden guardian of the Forest.</description>
 		<statOffsets>
 			<PlantWorkSpeed>2</PlantWorkSpeed>
 			<PlantHarvestYield>2</PlantHarvestYield>
