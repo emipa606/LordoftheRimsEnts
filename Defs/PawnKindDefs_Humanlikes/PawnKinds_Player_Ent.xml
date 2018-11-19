@@ -14,7 +14,9 @@
     <defName>PlayerEnt</defName>
     <label>member</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
+    <backstoryCategories>
+      <li>Ent_Backstory</li>
+    </backstoryCategories>
     <chemicalAddictionChance>0.01</chemicalAddictionChance>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>

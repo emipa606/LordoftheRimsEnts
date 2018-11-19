@@ -11,6 +11,7 @@
     <description>Sap extracted from a Huorn.</description>
     <graphicData>
       <texPath>Things/Item/Resource/HuornSap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>

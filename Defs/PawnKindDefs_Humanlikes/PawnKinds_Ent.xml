@@ -4,7 +4,9 @@
   <PawnKindDef Name="EntBase" Abstract="True">
     <defaultFactionType>EntFaction</defaultFactionType>
 	<race>Ent_Race</race>
-    <backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
+    <backstoryCategories>
+      <li>Ent_Backstory</li>
+    </backstoryCategories>
     <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <chemicalAddictionChance>0.00</chemicalAddictionChance>
     <invNutrition>12</invNutrition>
@@ -15,8 +17,9 @@
     <defName>EntMelee</defName>
     <label>warrior</label>
 	<race>Ent_Race</race>
-	<backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
-	
+    <backstoryCategories>
+      <li>Ent_Backstory</li>
+    </backstoryCategories>
     <combatPower>200</combatPower>
     <minGenerationAge>50</minGenerationAge>
   </PawnKindDef>
@@ -25,7 +28,9 @@
     <defName>EntRange</defName>
     <label>siege</label>
 	<race>Ent_Race</race>
-	<backstoryCategories><li>Ent_Backstory</li></backstoryCategories>
+    <backstoryCategories>
+      <li>Ent_Backstory</li>
+    </backstoryCategories>
     <weaponMoney>
       <min>200</min>
       <max>900</max>

@@ -46,7 +46,6 @@
 			<alienRace>
 				<generalSettings>
 					<maleGenderProbability>1.0</maleGenderProbability>
-					<allowHumanBios>false</allowHumanBios>
 					<immuneToAge>true</immuneToAge>
 					<canLayDown>false</canLayDown>
 					<disallowedTraits>
