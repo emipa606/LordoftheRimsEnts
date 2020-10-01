@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Lord of the Rims - Ents (Continued)</name>
+  <packageId>Mlie.LordoftheRimsEnts</packageId>
+  <author>Saebbi and Napon</author>
+  <url>https://github.com/emipa606/LordoftheRimsEnts</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>jecrell.jecstools</packageId>
+      <displayName>JecsTools</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>jecrell.jecstools</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>Update of Saebbi and Napons mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1407085855
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
+
+Support-chat:
+https://invite.gg/mlie
+
+Non-steam version:
+https://github.com/emipa606/LordoftheRimsEnts
+
+- Added support for Combat Extended
+	
+--- Original Description ---
+Adds Ents to RimWorld. Requires JecsTools and Humanoid Alien Framework.
+  
+Textures were made by Napon.
+XML done by Saebbi.
+  
+Regeneration Assembly by ChJees, Texture for Blood by Filthy Peasant.</description>
+</ModMetaData>

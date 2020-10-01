@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAddModExtension">
+        <xpath>*/ThingDef[defName="Huorn"]</xpath>
+        <value>
+          <li Class="CombatExtended.RacePropertiesExtensionCE">
+            <bodyShape>Humanoid</bodyShape>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName="Huorn"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>left tree branch</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>30</power>
+              <cooldownTime>2.8</cooldownTime>
+              <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+              <surpriseAttack>
+                <extraMeleeDamages>
+                  <li>
+                    <def>Stun</def>
+                    <amount>60</amount>
+                  </li>
+                </extraMeleeDamages>
+              </surpriseAttack>
+              <armorPenetrationBlunt>6.960</armorPenetrationBlunt>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>right tree branch</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>30</power>
+              <cooldownTime>2.8</cooldownTime>
+              <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+              <surpriseAttack>
+                <extraMeleeDamages>
+                  <li>
+                    <def>Stun</def>
+                    <amount>60</amount>
+                  </li>
+                </extraMeleeDamages>
+              </surpriseAttack>
+              <armorPenetrationBlunt>6.960</armorPenetrationBlunt>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
