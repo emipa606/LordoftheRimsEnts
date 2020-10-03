@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Weapon_Boulder"]/graphicData/texPath</xpath>
+        <value>
+          <texPath>Things/Projectile/entboulder</texPath>
+        </value>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>Weapon_Boulder</defName>
+        <statBases>
+          <Mass>40</Mass>
+          <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+          <SightsEfficiency>1.0</SightsEfficiency>
+          <ShotSpread>0.22</ShotSpread>
+          <SwayFactor>1.5</SwayFactor>
+          <Bulk>5</Bulk>
+        </statBases>
+        <Properties>
+          <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>EntBoulder</defaultProjectile>
+          <warmupTime>5</warmupTime>
+          <range>25</range>
+          <targetParams>
+            <canTargetLocations>true</canTargetLocations>
+          </targetParams>
+        </Properties>
+        <FireModes />
+        <weaponTags>
+          <li>EntBoulder</li>
+        </weaponTags>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

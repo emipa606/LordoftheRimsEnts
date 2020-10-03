@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>EntHeart</defName>
+    <label>Ent heart</label>
+    <hitPoints>10</hitPoints>
+    <bleedRate>5</bleedRate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+      <li>BreathingSource</li>
+      <li>BloodFiltrationKidney</li>
+      <li>BloodFiltrationLiver</li>
+      <li>MetabolismSource</li>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <spawnThingOnRemoved>EntHeart</spawnThingOnRemoved>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>EntTrunk</defName>
+    <label>Ent trunk</label>
+    <hitPoints>60</hitPoints>
+    <bleedRate>1</bleedRate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+      <li>BreathingSource</li>
+      <li>BloodFiltrationKidney</li>
+      <li>BloodFiltrationLiver</li>
+      <li>ConsciousnessSource</li>
+      <li>MetabolismSource</li>
+    </tags>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>HuornHeart</defName>
+    <label>Huorn heart</label>
+    <hitPoints>10</hitPoints>
+    <bleedRate>5</bleedRate>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+      <li>BreathingSource</li>
+      <li>BloodFiltrationKidney</li>
+      <li>BloodFiltrationLiver</li>
+      <li>MetabolismSource</li>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <spawnThingOnRemoved>HuornHeart</spawnThingOnRemoved>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>EntStomach</defName>
+    <label>Ent stomach</label>
+    <hitPoints>50</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MetabolismSource</li>
+      <li>ConsciousnessSource</li>
+    </tags>
+  </BodyPartDef>
+</Defs>
