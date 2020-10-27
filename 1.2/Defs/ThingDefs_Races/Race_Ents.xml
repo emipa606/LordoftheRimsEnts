@@ -31,7 +31,7 @@
           </pawnKindEntries>
           <factionDefs>
             <li>EntFaction</li>
-            <li>EntPlayerFaction</li>
+            <li>EntPlayerTribe</li>
           </factionDefs>
         </li>
       </startingColonists>
@@ -55,7 +55,7 @@
           <li>
             <factions>
               <li>EntFaction</li>
-              <li>EntPlayerFaction</li>
+              <li>EntPlayerTribe</li>
             </factions>
             <goodwill>
               <min>-50</min>
