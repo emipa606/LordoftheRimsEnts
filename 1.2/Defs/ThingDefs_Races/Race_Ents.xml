@@ -24,7 +24,7 @@
           <pawnKindEntries>
             <li>
               <kindDefs>
-                <li>EntPlayer</li>
+                <li>PlayerEnt</li>
               </kindDefs>
               <chance>10.0</chance>
             </li>
